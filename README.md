@@ -10,9 +10,23 @@ Diabetes is an increasing issue in the United States. This project will examine 
 * [diabetes_binary_5050split_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv)
 * [diabetes_binary_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_health_indicators_BRFSS2015.csv)
 
-## Technologies
-* AWS (Sagemaker, Athena, S3)
-* Python (AWS Sagemaker)
+## Project Description
+### Data Sources
+The [diabetes datasets](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset) are obtained from Kaggle. The data will be stored on AWS S3 Bucket, which will establish a connection with AWS Sagemaker. The three files are uploaded to the S3 bucket.
+* [diabetes_012_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_012_health_indicators_BRFSS2015.csv): The file contains 253,680 observations and the target variable (*Diabetes_012*) is imbalanced and has three classes (0 is for no diabetes or only during pregnancy, 1 is for prediabetes, and 2 is for diabetes).
+* [diabetes_binary_5050split_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv): The file contains 70,692 observations and the target variable (*Diabetes_binary*) has been balanced and has two classes (0 is for no diabetes and 1 is for prediabetes or diabetes).
+* [diabetes_binary_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_health_indicators_BRFSS2015.csv): The file contains 253,680 observations and the target variable (*Diabetes_binary*) is imbalanced and has two classes (0 is for no diabetes and 1 is for prediabetes or diabetes).
+
+
+### Methods
+* Data Preprocessing
+* Data Visualization
+* Exploratory Data Analysis
+* Statistical Modeling
+
+### Technologies
+* AWS (SageMaker, Athena, S3)
+* Python (AWS SageMaker)
 * SQL
 
 ## Getting Started
