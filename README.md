@@ -25,7 +25,7 @@ The [diabetes datasets](https://www.kaggle.com/datasets/alexteboul/diabetes-heal
 * Statistical Modeling
 
 ### Technologies
-* AWS (SageMaker, Athena, S3)
+* AWS (SageMaker, Athena, S3, Data Wrangler)
 * Python (AWS SageMaker)
 * SQL
 
