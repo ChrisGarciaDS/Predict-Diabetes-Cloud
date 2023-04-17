@@ -17,6 +17,13 @@ The [diabetes datasets](https://www.kaggle.com/datasets/alexteboul/diabetes-heal
 * [diabetes_binary_5050split_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv): The file contains 70,692 observations and the target variable (*Diabetes_binary*) has been balanced and has two classes (0 is for no diabetes and 1 is for prediabetes or diabetes).
 * [diabetes_binary_health_indicators_BRFSS2015.csv](https://github.com/ChrisGarciaDS/ADS-508-Team-Final-Project/blob/main/data/diabetes_binary_health_indicators_BRFSS2015.csv): The file contains 253,680 observations and the target variable (*Diabetes_binary*) is imbalanced and has two classes (0 is for no diabetes and 1 is for prediabetes or diabetes).
 
+The data can also be accessed directly through the public S3 bucket through this path: s3://diabetes-ads508
+* diabetes_012_health_indicators_BRFSS2015.csv located here : s3://diabetes-ads508/folder-1/csv/
+* diabetes_binary_5050split_health_indicators_BRFSS2015.csv located here : s3://diabetes-ads508/folder-2/csv/
+* diabetes_binary_health_indicators_BRFSS2015.csv located here : s3://diabetes-ads508/folder-3/csv/
+
+
+
 
 ### Methods
 * Data Preprocessing
